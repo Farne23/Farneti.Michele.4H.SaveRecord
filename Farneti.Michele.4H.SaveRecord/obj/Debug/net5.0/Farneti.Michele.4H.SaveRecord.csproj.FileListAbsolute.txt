@@ -1,0 +1,16 @@
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.exe
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.deps.json
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.runtimeconfig.json
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.runtimeconfig.dev.json
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.dll
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\ref\Farneti.Michele.4H.SaveRecord.dll
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\bin\Debug\net5.0\Farneti.Michele.4H.SaveRecord.pdb
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.csprojAssemblyReference.cache
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.AssemblyInfoInputs.cache
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.AssemblyInfo.cs
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.csproj.CoreCompileInputs.cache
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.dll
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\ref\Farneti.Michele.4H.SaveRecord.dll
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.pdb
+C:\Users\Michele\Desktop\Farneti.Michele.4H.SaveRecord\obj\Debug\net5.0\Farneti.Michele.4H.SaveRecord.genruntimeconfig.cache

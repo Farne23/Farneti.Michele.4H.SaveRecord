@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Farneti.Michele.4H.SaveRecord/1.0.0": {
+        "runtime": {
+          "Farneti.Michele.4H.SaveRecord.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Farneti.Michele.4H.SaveRecord/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
