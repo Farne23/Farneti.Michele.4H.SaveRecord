@@ -80,17 +80,22 @@ namespace Farneti.Michele._4H.SaveRecord.Models
 
         public void Load(string fileName)
         {
-            FileStream fin = new FileStream(fileName,FileMode.Open);
-            BinaryReader reader = new BinaryReader(fin);
-
-            Comune c = new Comune();   
-            c.ID = reader.ReadInt32();
-            c.CodiceCastale =reader.ReadString() ;
-            c.NomeComune =reader.ReadString() ;
-        
-            Add(c);
-
-            //MANCA IL CICLO
+            Clear();
+            
+            using (FileStream fin = new FileStream(fileName, FileMode.Open))
+            {
+                BinaryReader reader = new BinaryReader(fin);
+                Comune c = new Comune();
+                
+                while (reader.BaseStream.Position != reader.BaseStream.Length)
+                {   
+                    c.ID = reader.ReadInt32();
+                    c.CodiceCatastale = reader.ReadString();
+                    c.NomeComune = reader.ReadString();
+                    
+                    Add( c );
+                }
+            }
         }
 
     }
