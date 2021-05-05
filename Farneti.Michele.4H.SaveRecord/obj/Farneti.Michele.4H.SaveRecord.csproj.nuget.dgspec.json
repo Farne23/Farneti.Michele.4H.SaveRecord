@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michele\\Desktop\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj": {}
+    "C:\\Users\\Michele\\Documents\\GitHub\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michele\\Desktop\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj": {
+    "C:\\Users\\Michele\\Documents\\GitHub\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michele\\Desktop\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj",
+        "projectUniqueName": "C:\\Users\\Michele\\Documents\\GitHub\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj",
         "projectName": "Farneti.Michele.4H.SaveRecord",
-        "projectPath": "C:\\Users\\Michele\\Desktop\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj",
+        "projectPath": "C:\\Users\\Michele\\Documents\\GitHub\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord.csproj",
         "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michele\\Desktop\\Farneti.Michele.4H.SaveRecord\\obj\\",
+        "outputPath": "C:\\Users\\Michele\\Documents\\GitHub\\Farneti.Michele.4H.SaveRecord\\Farneti.Michele.4H.SaveRecord\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

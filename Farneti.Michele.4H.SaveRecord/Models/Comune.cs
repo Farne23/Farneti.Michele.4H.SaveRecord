@@ -90,7 +90,7 @@ namespace Farneti.Michele._4H.SaveRecord.Models
                 while (reader.BaseStream.Position != reader.BaseStream.Length)
                 {   
                     c.ID = reader.ReadInt32();
-                    c.CodiceCatastale = reader.ReadString();
+                    c.CodiceCastale = reader.ReadString();
                     c.NomeComune = reader.ReadString();
                     
                     Add( c );
