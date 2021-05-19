@@ -30,7 +30,7 @@ namespace Farneti.Michele._4H.SaveRecord
 
             C.Load(); 
 
-            Console.WriteLine(C[100].ToString()); 
+            Console.WriteLine(C[100].ToString());  
 
         }    
     } 
