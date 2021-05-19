@@ -13,25 +13,24 @@ namespace Farneti.Michele._4H.SaveRecord
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Registro dei comuni di Michele Farneti");
+            Console.WriteLine("\r\nRegistro dei comuni di Michele Farneti\r\n");
 
             //Leggere un file csv di comuni e trasformarlo in una lista
             //Scrivere  la list comuni in un fil binario
             //RIleggere il file binario una list
 
             Comuni C= new Comuni("Comuni.csv");   
-            Console.WriteLine($"Ho letto {C.Count} righe da file csv"); 
+            Console.WriteLine($"Ho letto {C.Count} righe da file csv\r\n"); 
 
             C.Save(); 
 
-            Console.WriteLine($"Ho letto {C.Count} righe da file binario"); 
+            Console.WriteLine($"Ho letto {C.Count} righe da file binario\r\n"); 
 
             Console.WriteLine(C[100].ToString()); 
 
-            C.Load(); 
-
-            Console.WriteLine(C[100].ToString());  
-
+            C.Load();
+            
+            Console.WriteLine("Caricamento eseguito\r\n");
         }    
     } 
 }
