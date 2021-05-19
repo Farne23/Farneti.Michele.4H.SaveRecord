@@ -11,7 +11,7 @@ namespace Farneti.Michele._4H.SaveRecord.Models
     {
         public int ID { get;  set; }
         public string NomeComune { get;  set; }
-        public string CodiceCastale { get;  set; }
+        public string CodiceCatastale { get;  set; }
 
         public Comune() { }
 
@@ -20,7 +20,12 @@ namespace Farneti.Michele._4H.SaveRecord.Models
             string[] splitted = s.Split(',');
             ID = id;
             NomeComune = splitted[1];
-            CodiceCastale = splitted[0];
+            CodiceCatastale = splitted[0];
+        }
+
+        public override string ToString()
+        {
+            return ($"#{ID}: {NomeComune} -- {CodiceCatastale}");
         }
     }
 
@@ -65,7 +70,7 @@ namespace Farneti.Michele._4H.SaveRecord.Models
             foreach(Comune comune in this)
             {
                 writer.Write(comune.ID);
-                writer.Write(comune.CodiceCastale);
+                writer.Write(comune.CodiceCatastale);
                 writer.Write(comune.NomeComune);
             }
             writer.Flush();
@@ -82,6 +87,7 @@ namespace Farneti.Michele._4H.SaveRecord.Models
         {
             Clear();
             
+            
             using (FileStream fin = new FileStream(fileName, FileMode.Open))
             {
                 BinaryReader reader = new BinaryReader(fin);
@@ -90,13 +96,12 @@ namespace Farneti.Michele._4H.SaveRecord.Models
                 while (reader.BaseStream.Position != reader.BaseStream.Length)
                 {   
                     c.ID = reader.ReadInt32();
-                    c.CodiceCastale = reader.ReadString();
+                    c.CodiceCatastale = reader.ReadString();
                     c.NomeComune = reader.ReadString();
-                    
+                
                     Add( c );
                 }
             }
         }
-
     }
 }

@@ -26,9 +26,12 @@ namespace Farneti.Michele._4H.SaveRecord
 
             Console.WriteLine($"Ho letto {C.Count} righe da file binario"); 
 
-            C.Load();   
+            Console.WriteLine(C[100].ToString()); 
 
-        }
-        
+            C.Load(); 
+
+            Console.WriteLine(C[100].ToString()); 
+
+        }    
     } 
 }
